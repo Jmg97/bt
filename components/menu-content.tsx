@@ -27,9 +27,9 @@ const menuData: MenuSection[] = [
       { name: { en: "Cafe Latte", kr: "카페라떼" }, price: 6.5 },
       { name: { en: "Vanilla Bean Latte", kr: "바닐라빈라떼" }, price: 7.5 },
       { name: { en: "Cafe Mocha", kr: "카페모카" }, price: 7.5 },
-      { name: { en: "Ice Special", kr: "아인슈페너" }, price: 8.0 },
+      { name: { en: "Einspener", kr: "아인슈페너" }, price: 8.0 },
       { name: { en: "Cream Latte", kr: "크림라떼" }, price: 8.0 },
-      { name: { en: "Extra Shot", kr: "샷추가1" }, price: 1.0 },
+      { name: { en: "Extra Shot", kr: "샷추가" }, price: 1.0 },
       { name: { en: "Change to Oat", kr: "피커스 오트 변경" }, price: 1.0 }
     ]
   },
