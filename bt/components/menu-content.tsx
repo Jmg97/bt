@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from "react"
 import { motion } from "framer-motion"
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
 import { ScrollArea } from "@/components/ui/scroll-area"
@@ -93,7 +92,6 @@ const menuData: MenuSection[] = [
 ]
 
 export function MenuContent() {
-  const [activeCategory, setActiveCategory] = useState("COFFEE")
 
   return (
     <Tabs defaultValue="COFFEE" className="w-full h-full flex flex-col">
@@ -103,7 +101,7 @@ export function MenuContent() {
             key={section.title}
             value={section.title}
             className="text-sm md:text-base font-medium px-3 py-2 rounded-full flex-1 max-w-[20%]"
-            onClick={() => setActiveCategory(section.title)}
+          
           >
             {section.title}
           </TabsTrigger>
