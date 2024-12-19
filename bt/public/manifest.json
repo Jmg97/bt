@@ -1,0 +1,22 @@
+{
+  "name": "Blue Trunk Menu",
+  "short_name": "BT Menu",
+  "description": "Digital menu for Blue Trunk Coffee and Drink",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d47a1",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
